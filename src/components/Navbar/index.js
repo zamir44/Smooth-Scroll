@@ -17,7 +17,7 @@ const Navbar = () => {
                     <NavLogo to='/'>
                         dollar
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
