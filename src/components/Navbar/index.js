@@ -9,7 +9,7 @@ import { Nav, NavbarContainer,
         NavBtn,
         NavBtnLink } from './NavbarElements' 
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
@@ -42,5 +42,5 @@ const Navbar = () => {
         </>
     )
 }
- 
+
 export default Navbar;
